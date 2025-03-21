@@ -26,7 +26,7 @@ The following diagram provides an overview of the architecture and the steps fol
 ## Features
 
 - **Multimodal Video Understanding**
-  - Process visual expressions, body language, spoken words, and context
+  - Process videos
   - Generate 1024-dimensional vector embeddings
 
 - **Advanced Search Capabilities** 
@@ -35,8 +35,8 @@ The following diagram provides an overview of the architecture and the steps fol
   - Combined multimodal search
 
 - **Scalable Architecture**
-  - Serverless deployment on AWS
-  - Vector storage and indexing with OpenSearch
+  - Deployment with Amazon OpenSearch Service on AWS
+  - Vector storage and indexing with Amazon OpenSearch
   - Integration with Twelve Labs
 
 ## Prerequisites
