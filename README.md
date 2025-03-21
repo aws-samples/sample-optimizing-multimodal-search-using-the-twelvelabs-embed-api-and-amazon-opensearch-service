@@ -49,6 +49,13 @@ The following diagram provides an overview of the architecture and the steps fol
 ## Running the notebook
 Follow the steps in the `Twelve_Labs_Opensearch.ipynb` notebook to create embedding and perform search.
 
+## Authors
+Contributor names and info
+
+  - James Le, Head of Developer Experience, TwelveLabs
+  - Gitika Vigh, Senior WW Data & AI PSA, AWS
+  - Kruthi Rao, Partner Solutions Architect, AWS
+    
 ## License
 Copyright 2024 Amazon.com, Inc. or its affiliates. All Rights Reserved.
 
