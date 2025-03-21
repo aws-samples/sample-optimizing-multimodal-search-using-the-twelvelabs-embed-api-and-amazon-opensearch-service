@@ -28,13 +28,11 @@ The following diagram provides an overview of the architecture and the steps fol
 - **Multimodal Video Understanding**
   - Process visual expressions, body language, spoken words, and context
   - Generate 1024-dimensional vector embeddings
-  - Maintain temporal coherence across video segments
 
 - **Advanced Search Capabilities** 
   - Semantic search using text queries
   - Visual similarity search
   - Combined multimodal search
-  - Temporal-aware video segment retrieval
 
 - **Scalable Architecture**
   - Serverless deployment on AWS
