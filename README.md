@@ -21,7 +21,7 @@ The following diagram provides an overview of the architecture and the steps fol
 - User uses Twelve Labs Embed API to create the corresponding embeddings.
 - Searches video embeddings in Amazon OpenSearch and retrieves the corresponding vector.
 
-![Figure 1: Architecture for Twelve Labs Embed API and Amazon OpenSearch use case](./images/images/twelvelabsAndOpenSearchArchitecureDiagram.png)
+![Figure 1: Architecture for Twelve Labs Embed API and Amazon OpenSearch use case](./images/twelvelabsAndOpenSearchArchitecureDiagram.png)
 
 ## Features
 
