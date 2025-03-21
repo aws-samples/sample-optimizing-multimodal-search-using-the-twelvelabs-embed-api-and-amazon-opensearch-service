@@ -1,4 +1,4 @@
-# Leveraging Twelve Labs Embed API and OpenSearch for multimodal search
+# Optimizing Multimodal Search Using the Twelve Labs Embed API and Amazon OpenSearch Service
 
 A solution for implementing advanced video search capabilities by combining Twelve Labs' Embed API with Amazon OpenSearch Service. This integration enables sophisticated multimodal search across video content using AI-powered video understanding and vector search capabilities.
 
