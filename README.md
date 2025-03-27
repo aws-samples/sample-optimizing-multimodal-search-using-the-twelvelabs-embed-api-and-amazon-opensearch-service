@@ -17,7 +17,7 @@ This project demonstrates how to:
 The following diagram provides an overview of the architecture and the steps followed to 
 - A video file is stored in Amazon Simple Storage Service (Amazon S3). Embeddings of the video file are created using the Embed API.
 - Embeddings generated from the Embed API are now ingested to Amazon OpenSearch.
-- A user can search the video embeddings using text, audio, or image. The user uses Embed API to create the corresponding embeddings.
+- The user can search their video content using text, audio, or image queries. The user uses Embed API to create the corresponding embeddings.
 - The user searches video embeddings in Amazon OpenSearch and retrieves the corresponding vector.
 
 ![Figure 1: Architecture for TwelveLabs Embed API and Amazon OpenSearch use case](./images/twelvelabsAndOpenSearchArchitecureDiagram.png)
@@ -25,8 +25,8 @@ The following diagram provides an overview of the architecture and the steps fol
 ## Features
 
 - **Multimodal Video Understanding**
-  - Process videos
-  - Generate 1024-dimensional vector embeddings
+  - Video processing
+  - Generation of 1024-dimensional vector embeddings
 
 - **Advanced Search Capabilities** 
   - Semantic search using text queries
