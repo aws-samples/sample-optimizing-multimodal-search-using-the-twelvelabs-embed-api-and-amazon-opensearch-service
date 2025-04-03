@@ -8,7 +8,7 @@ This solution implements advanced video search capabilities by combining TwelveL
 
 This project demonstrates how to:
 - Generate rich vector embeddings from video content using the Embed API
-- Store and index video embeddings in Amazon OpenSearch
+- Store and index video embeddings in Amazon OpenSearch Service
 - Perform multimodal semantic search across video libraries
 - Enable sophisticated video discovery and analysis
 
@@ -18,7 +18,7 @@ The following diagram provides an overview of the architecture and the steps fol
 1. A video file is stored in Amazon Simple Storage Service (Amazon S3). Embeddings of the video file are created using the Embed API.
 2. Embeddings generated from the Embed API are now ingested to Amazon OpenSearch.
 3. The user can search their video content using text, audio, or image queries. The user uses Embed API to create the corresponding embeddings.
-4. The user searches video embeddings in Amazon OpenSearch and retrieves the corresponding vector.
+4. The user searches video embeddings in Amazon OpenSearch Service and retrieves the corresponding vector.
 
 ![Figure 1: Architecture for TwelveLabs Embed API and Amazon OpenSearch use case](./images/OpenSearchTwelveLabsArchitecture.png)
 
@@ -35,13 +35,13 @@ The following diagram provides an overview of the architecture and the steps fol
 
 - **Scalable Architecture**
   - Deployment with Amazon OpenSearch Service on AWS
-  - Vector storage and indexing with Amazon OpenSearch
+  - Vector storage and indexing with Amazon OpenSearch Service
   - Integration with TwelveLabs
 
 ## Prerequisites
   - Confirm that you have an [AWS account](https://docs.aws.amazon.com/accounts/latest/reference/manage-acct-creating.html)
   - Create a [TwelveLabs account](https://auth.twelvelabs.io/u/signup/) as it will be required to get the API Key. TwelveLabs offers a free tier [pricing](https://www.twelvelabs.io/pricing) but you can upgrade as per your requirement.
-  - Confirm that you have an Amazon OpenSearch domain. If you do not have an existing domain, you can create one using the steps outlined in our public documentation for [Creating and Managing Amazon OpenSearch Domain](https://docs.aws.amazon.com/opensearch-service/latest/developerguide/createupdatedomains.html). Ensure that OpenSearch domain is accessible from your Python environment. You can also use [Amazon OpenSearch Serverless](https://docs.aws.amazon.com/opensearch-service/latest/developerguide/serverless.html) for this use case and update the interactions to OpenSearch serverless using [AWS SDKs](https://docs.aws.amazon.com/opensearch-service/latest/developerguide/serverless-sdk.html).
+  - Confirm that you have an Amazon OpenSearch Service domain. If you do not have an existing domain, you can create one using the steps outlined in our public documentation for [Creating and Managing Amazon OpenSearch Domain](https://docs.aws.amazon.com/opensearch-service/latest/developerguide/createupdatedomains.html). Ensure that OpenSearch Service domain is accessible from your Python environment. You can also use [Amazon OpenSearch Serverless](https://docs.aws.amazon.com/opensearch-service/latest/developerguide/serverless.html) for this use case and update the interactions to OpenSearch serverless using [AWS SDKs](https://docs.aws.amazon.com/opensearch-service/latest/developerguide/serverless-sdk.html).
 
 ## Running the notebook
 Execute the steps in the `TwelveLabs_OpenSearch.ipynb` notebook to create embeddings and perform searches.
