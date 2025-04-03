@@ -16,7 +16,7 @@ This project demonstrates how to:
 
 The following diagram provides an overview of the architecture and the steps followed to 
 1. A video file is stored in Amazon Simple Storage Service (Amazon S3). Embeddings of the video file are created using the Embed API.
-2. Embeddings generated from the Embed API are now ingested to Amazon OpenSearch.
+2. Embeddings generated from the Embed API are now ingested to Amazon OpenSearch Service.
 3. The user can search their video content using text, audio, or image queries. The user uses Embed API to create the corresponding embeddings.
 4. The user searches video embeddings in Amazon OpenSearch Service and retrieves the corresponding vector.
 
