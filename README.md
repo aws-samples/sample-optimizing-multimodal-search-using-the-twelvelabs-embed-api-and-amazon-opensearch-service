@@ -20,7 +20,7 @@ The following diagram provides an overview of the architecture and the steps fol
 3. The user can search their video content using text, audio, or image queries. The user uses Embed API to create the corresponding embeddings.
 4. The user searches video embeddings in Amazon OpenSearch and retrieves the corresponding vector.
 
-![Figure 1: Architecture for TwelveLabs Embed API and Amazon OpenSearch use case](./images/images/OpenSearchTwelveLabsArchitecture.png)
+![Figure 1: Architecture for TwelveLabs Embed API and Amazon OpenSearch use case](./images/OpenSearchTwelveLabsArchitecture.png)
 
 ## Features
 
